@@ -8,19 +8,6 @@ const userSchema = new Schema({
   },
   name: String,
   passwordHash: String,
-  titular: String,
-  residencia: String,
-  about: String,
-  hobbies: String,
-  deportes: String,
-  carrera: [{
-    institucion: String,
-    categoria: String,
-    desde: String,
-    hasta: String,
-    desc_gral: String,
-    logros: String
-  }],
   notes: [{
     type: Schema.Types.ObjectId,
     ref: 'Note'

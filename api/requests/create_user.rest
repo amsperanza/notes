@@ -2,7 +2,20 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-  "username": "agustin",
-  "name": "Agustin",
-  "password": "laaguspassword"
+  "username": "gonzacarou",
+  "name": "Gonzalo Carou",
+  "password": "lagonzapassword",
+  "titular": "Pivote de la Seleeción Argentina - Record de Mundiales",
+  "residencia": "España",
+  "about": "El mejor pívot de la historia Argentina",
+  "hobbies": "Ping-Pong",
+  "deportes": "Futbol 5",
+  "carrera": [{
+    "institucion": "Puerto Sagunto",
+    "categoria": "Mayor",
+    "desde": "2020",
+    "hasta": "Actual",
+    "desc_gral": "Pivote. Competimos en muchos campeonatos",
+    "logros": "Campeón Clausura 2021"
+  }]
 }
