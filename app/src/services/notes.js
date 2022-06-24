@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = '/api/notes'
+const baseUrl = 'https://morning-harbor-47565.herokuapp.com/api/notes'
 
 let token = null
 
