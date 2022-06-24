@@ -1,0 +1,7 @@
+POST https://morning-harbor-47565.herokuapp.com/api/login
+Content-Type: application/json
+
+{
+  "username": "agustin",
+  "password": "laaguspassword"
+}
